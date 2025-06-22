@@ -6,19 +6,21 @@ import {
   HeroSection,
   CategoriesGrid,
   FeaturedListings,
+  AiAssistant,
   LocationSelector,
   Footer
 } from './components';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <Header />
       <HeroSection />
       <CategoriesGrid />
       <FeaturedListings />
       <LocationSelector />
       <Footer />
+      <AiAssistant />
     </div>
   );
 };
